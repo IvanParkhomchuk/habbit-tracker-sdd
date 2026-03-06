@@ -2,6 +2,9 @@
 
 ## Build & Development Commands
 - **Install All Dependencies:** `npm install` (from root)
+- **Infrastructure:**
+    - Start DB: `docker-compose up -d`
+    - Stop DB: `docker-compose down`
 - **API (NestJS):**
     - Run Dev: `cd apps/api && npm run start:dev`
     - Build: `cd apps/api && npm run build`
